@@ -4,7 +4,7 @@ export default function Header(): JSX.Element {
   return (
     <header className="black tc pv4 avenir">
       <h1
-        style={{ fontFamily: 'Rouge Script', fontSize: '6em' }}
+        style={{ fontFamily: 'Rouge Script', fontSize: '5em' }}
         className="ma0 i fw1 f1"
       >
         Paola y Rodrigo

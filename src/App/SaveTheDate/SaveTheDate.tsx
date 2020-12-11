@@ -59,15 +59,16 @@ export default function SaveTheDate(): JSX.Element {
   }, [index]);
 
   return (
-    <div className="pa3 flex mw8 center">
-      <div className="flex items-center w-50 pa3">
+    <div className="pa3 flex mw8 center flex-wrap">
+      <div className="flex items-center w-100 w-50-ns pa3">
         <img src={photos[index]} alt="The Couple" className="w-100" />
       </div>
-      <div className="flex items-center w-50 pa3">
+      <div className="flex items-center w-100 w-50-ns pa3">
         <div className="center pa3 b--white-80 ba bw4">
-          <div className="pa3 bg-white-80">
-            <div className="f4 fw1 avenir">
-              Celebra con nosotros nuestra unión
+          <div className="pa3 bg-white-80 fw1 avenir">
+            <div className="f4">Celebra con nosotros nuestra unión</div>
+            <div className="f5 mt2">
+              Te esperamos el 6 de marzo del 2021 en Cuernavaca
             </div>
           </div>
         </div>
