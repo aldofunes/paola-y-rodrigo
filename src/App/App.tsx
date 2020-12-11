@@ -2,17 +2,18 @@ import React from 'react';
 import { MemoryRouter, Route } from 'react-router-dom';
 
 import Layout from './Layout';
+import SaveTheDate from './SaveTheDate';
 
 import './App.css';
 
-function App() {
+function App(): JSX.Element {
   return (
     <MemoryRouter>
       <Layout>
         <>
-          <h1>Holi</h1>
+          <Route exact path="/" component={SaveTheDate} />
 
-          <Route path="/eventos">
+          <Route path="/la-boda">
             <h1>Hasta luegui</h1>
           </Route>
         </>

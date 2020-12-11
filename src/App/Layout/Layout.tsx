@@ -6,31 +6,13 @@ interface Props {
   children: JSX.Element;
 }
 
-export default function Layout({ children }: Props) {
+export default function Layout({ children }: Props): JSX.Element {
   return (
     <div className="helvetica">
       <Header />
       <Nav />
 
       {children}
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
     </div>
   );
 }
