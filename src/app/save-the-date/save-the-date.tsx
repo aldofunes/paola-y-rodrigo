@@ -28,6 +28,13 @@ import photo25 from '../../images/cd0f18a8-c83f-43ad-b90a-d440281f445a.jpg';
 // import photo21 from '../../images/ad817e2f-5d51-4663-8668-c8ac432e47b2.jpg';
 // import photo26 from '../../images/cdbe27f2-d388-4e26-8762-272071197b79.jpg';
 
+function shuffleArray(array: string[]) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
 export default function SaveTheDate(): JSX.Element {
   const photos = [
     photo2,
@@ -43,6 +50,8 @@ export default function SaveTheDate(): JSX.Element {
     photo24,
     photo25,
   ];
+
+  shuffleArray(photos);
 
   const [index, setIndex] = useState<number>(0);
 

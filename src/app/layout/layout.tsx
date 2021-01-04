@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from '../Header';
-import Nav from '../Nav';
+import Header from '../header';
+import Nav from '../nav';
 
 interface Props {
-  children: JSX.Element;
+  children: JSX.Element | JSX.Element[];
 }
 
 export default function Layout({ children }: Props): JSX.Element {

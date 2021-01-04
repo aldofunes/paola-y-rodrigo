@@ -17,15 +17,7 @@ export default function Nav(): JSX.Element {
           exact
           className="link bg-white-70 black f5 f4-ns dib pa3"
           activeStyle={{ background: 'rgba(230,230,230,0.7)' }}
-          to="/cortejo"
-        >
-          Cortejo
-        </NavLink>
-        <NavLink
-          exact
-          className="link bg-white-70 black f5 f4-ns dib pa3"
-          activeStyle={{ background: 'rgba(230,230,230,0.7)' }}
-          to="/la-boda"
+          to="/events"
         >
           La Boda
         </NavLink>
@@ -41,7 +33,7 @@ export default function Nav(): JSX.Element {
           exact
           className="link bg-white-70 black f5 f4-ns dib pa3"
           activeStyle={{ background: 'rgba(230,230,230,0.7)' }}
-          to="/cuernavaca"
+          to="/travel"
         >
           Cuernavaca
         </NavLink>
@@ -49,7 +41,7 @@ export default function Nav(): JSX.Element {
           exact
           className="link bg-white-70 black f5 f4-ns dib pa3"
           activeStyle={{ background: 'rgba(230,230,230,0.7)' }}
-          to="/libro"
+          to="/guest-book"
         >
           Libro de Visitas
         </NavLink>
@@ -57,7 +49,7 @@ export default function Nav(): JSX.Element {
           exact
           className="link bg-white-70 black f5 f4-ns dib pa3"
           activeStyle={{ background: 'rgba(230,230,230,0.7)' }}
-          to="/fotos"
+          to="/photos"
         >
           Fotos
         </NavLink>
@@ -65,7 +57,7 @@ export default function Nav(): JSX.Element {
           exact
           className="link bg-white-70 black f5 f4-ns dib pa3"
           activeStyle={{ background: 'rgba(230,230,230,0.7)' }}
-          to="/mesa"
+          to="/gifts"
         >
           Mesa de Regalos
         </NavLink>

@@ -1,11 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  background: #f3fcff url("./images/bg.jpg") fixed repeat-y;
-  background-size: cover;
+  background: #f3fcff url('./images/bg.jpg') fixed repeat-y;
+  background-size: 100% auto;
 }
 
 @font-face {
-  font-family: "Rouge Script";
+  font-family: 'Rouge Script';
   font-style: normal;
   font-weight: normal;
-  src: url("./fonts/rouge-script.ttf");
+  src: url('./fonts/rouge-script.ttf');
 }
