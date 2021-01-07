@@ -7,7 +7,6 @@ import {
   ics,
   CalendarEvent,
 } from 'calendar-link';
-import { Link } from 'react-router-dom';
 import image from '../../images/hacienda-santa-cruz-vista-alegre-locaciones-optimized.jpg';
 import WhatsApp from '../../images/WhatsApp.png';
 import dressCode from '../../images/dress-code-2.jpg';
