@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 
 import Layout from './layout';
 import SaveTheDate from './save-the-date';
@@ -15,7 +15,7 @@ import './app.css';
 
 function App(): JSX.Element {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Layout>
         <Route exact path="/" component={SaveTheDate} />
         <Route exact path="/their-story" component={TheirStory} />
@@ -26,7 +26,7 @@ function App(): JSX.Element {
         <Route exact path="/photos" component={Photos} />
         <Route exact path="/gifts" component={Gifts} />
       </Layout>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
