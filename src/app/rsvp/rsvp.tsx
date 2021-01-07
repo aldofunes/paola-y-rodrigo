@@ -17,7 +17,7 @@ export default function RSVP(): JSX.Element {
             <div></div>
           </div>
           <div>
-            Confirma tu asistencia antes del 16 de febrero con Zuri de Garza
+            Confirma tu asistencia antes del 13 de febrero con Zuri de Garza
           </div>
           <a className="link dim blue db pa3" href={url.href}>
             <div className="flex items-center">

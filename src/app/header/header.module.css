@@ -1,0 +1,37 @@
+.title {
+  font-size: 6rem;
+  font-family: Rouge Script;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  .title {
+    font-size: 5rem;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 4rem;
+  }
+}
+
+
+.subtitle {
+  font-size: 2rem;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  .subtitle {
+    font-size: 1.5rem;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .subtitle {
+    font-size: 1.2rem;
+  }
+}

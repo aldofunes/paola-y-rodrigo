@@ -11,7 +11,15 @@ export default function Nav(): JSX.Element {
           activeStyle={{ background: 'rgba(230,230,230,0.7)' }}
           to="/"
         >
-          Save the Date!
+          Save the Date
+        </NavLink>
+        <NavLink
+          exact
+          className="link bg-white-70 black f5 f4-ns dib pa3"
+          activeStyle={{ background: 'rgba(230,230,230,0.7)' }}
+          to="/their-story"
+        >
+          Nosotros
         </NavLink>
         <NavLink
           exact
@@ -35,15 +43,7 @@ export default function Nav(): JSX.Element {
           activeStyle={{ background: 'rgba(230,230,230,0.7)' }}
           to="/travel"
         >
-          Cuernavaca
-        </NavLink>
-        <NavLink
-          exact
-          className="link bg-white-70 black f5 f4-ns dib pa3"
-          activeStyle={{ background: 'rgba(230,230,230,0.7)' }}
-          to="/guest-book"
-        >
-          Libro de Visitas
+          Hospedaje
         </NavLink>
         <NavLink
           exact

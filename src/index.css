@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 body {
-  background: #f3fcff url('./images/bg.jpg') fixed repeat-y;
-  background-size: 100% auto;
+  background: #f3fcff url('./images/bg-2.jpg') fixed repeat;
+  background-size: auto;
 }
 
 @font-face {

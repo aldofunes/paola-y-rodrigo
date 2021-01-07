@@ -10,7 +10,8 @@ import {
 import { Link } from 'react-router-dom';
 import image from '../../images/hacienda-santa-cruz-vista-alegre-locaciones-optimized.jpg';
 import WhatsApp from '../../images/WhatsApp.png';
-import dressCode from '../../images/dress-code.png';
+import dressCode from '../../images/dress-code-2.jpg';
+import accessories from '../../images/accessories.jpg';
 import styles from './events.module.css';
 
 export default function Events(): JSX.Element {
@@ -18,7 +19,7 @@ export default function Events(): JSX.Element {
     title: 'Boda Paola y Rodrigo',
     description: '¡Te esperamos para celebrar nuestra unión!',
     start: '2021-03-06T15:30:00-06:00',
-    end: '2021-03-07T01:30:00-06:00',
+    end: '2021-03-07T03:00:00-06:00',
     // duration: [3, 'hour'],
     location: 'Hacienda Santa Cruz Vista Alegre, Mazatepec, Morelos',
     busy: true,
@@ -33,10 +34,10 @@ export default function Events(): JSX.Element {
   );
 
   return (
-    <div className="mw8 w-100 center bg-white mt4 flex">
-      <div className="w-100 tc pa3">
-        <h1 className="fw4 serif">Ceremonia y Recepción</h1>
-        <div className="f5 fw3">Sábado</div>
+    <div className="mw8 w-100 center bg-white-80 mt4 flex flex-wrap flex-nowrap-l">
+      <div className="w-100 w-50-l tc pa3">
+        <h1 className="f2 fw4 serif">Ceremonia y Recepción</h1>
+        <div className="f5 fw3 mt4">Sábado</div>
         <div className="f2 fw3">6 de marzo</div>
         <div className="f5 fw3">2021</div>
 
@@ -94,16 +95,32 @@ export default function Events(): JSX.Element {
         </div>
 
         <div className="mv4 dib w-100">
-          <img className="w4" src={dressCode} />
-          <p className="f5">
-            <strong>Hombres</strong>: Guayabera
-          </p>
-          <p className="f5">
-            <strong>Mujeres</strong>: Vestido largo vaporoso
-          </p>
+          <img className="w-100 mw6 center" src={dressCode} />
+          <img className="w5 center" src={accessories} />
+          <div className="flex justify-around">
+            <div className="f5">
+              <div className="f3" style={{ color: '#5E6737' }}>
+                Hombres
+              </div>
+              <div>Casual</div>
+              <div>Guayabera</div>
+              <div>Telas Ligeras</div>
+              <div>Colores Claros</div>
+            </div>
+            <div className="f5 ">
+              <div className="f3" style={{ color: '#5E6737' }}>
+                Mujeres
+              </div>
+              <div>Vestido largo</div>
+              <div>Telas Ligeras</div>
+              <div>Colores Claros</div>
+              <div>Estampados</div>
+              <div>Tacón grueso</div>
+            </div>
+          </div>
         </div>
       </div>
-      <div className="w-100 pa3">
+      <div className="w-100 w-50-l pa3">
         <div>
           <img
             src={image}
