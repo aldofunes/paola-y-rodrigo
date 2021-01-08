@@ -20,8 +20,8 @@ export default function RSVP(): JSX.Element {
             Confirma tu asistencia antes del 13 de febrero con Zuri de Garza
           </div>
           <a className="link dim blue db pa3" href={url.href}>
-            <div className="flex items-center">
-              <div>
+            <div className="flex items-center justify-center">
+              <div className="mr2">
                 <img className="w2" src={WhatsApp} alt="WhatsApp" />
               </div>
               <div>+52 56 1088 5831</div>
