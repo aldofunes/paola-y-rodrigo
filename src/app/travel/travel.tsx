@@ -5,9 +5,8 @@ import Hotel from './hotel';
 export default function RSVP(): JSX.Element {
   return (
     <div>
-      <div className="mw8 w-100 center bg-white mt4 flex">
+      <div className="mw8 w-100 center mt4 flex">
         <div className="ma3">
-          <h2>Algunas recomendaciones para que disfrutes del fin de semana</h2>
           <div className="flex flex-wrap items-stretch justify-between">
             <Hotel
               address="Del Panteón, Los Olivos, 62790 Alpuyeca, Morelos, Mexico"
