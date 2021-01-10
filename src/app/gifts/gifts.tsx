@@ -30,7 +30,7 @@ export default function RSVP(): JSX.Element {
           <h3 className="ma0">BBVA</h3>
           <p>
             Por otro lado, abrimos una cuenta de BBVA para aquellos que
-            prefieran ayudarnos con los gasto de nuestra soñada Luna de Miel en
+            prefieran ayudarnos con los gastos de nuestra soñada Luna de Miel en
             Japón.
           </p>
           <h4>ありがとう!</h4>

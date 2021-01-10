@@ -35,7 +35,9 @@ export default function Events(): JSX.Element {
   return (
     <div className="mw8 w-100 center bg-white-80 mt4 flex flex-wrap flex-nowrap-l">
       <div className="w-100 w-50-l tc pa3">
-        <h1 className="f2 fw4 serif">Ceremonia y Recepción</h1>
+        <h1 className="f2 fw4 serif" style={{ color: '#5E6737' }}>
+          Ceremonia y Recepción
+        </h1>
         <div className="f5 fw3 mt4">Sábado</div>
         <div className="f2 fw3">6 de marzo</div>
         <div className="f5 fw3">2021</div>
@@ -115,6 +117,8 @@ export default function Events(): JSX.Element {
               <div>Colores Claros</div>
               <div>Estampados</div>
               <div>Tacón grueso</div>
+              <div>No blanco</div>
+              <div>No verde olivo</div>
             </div>
           </div>
         </div>
