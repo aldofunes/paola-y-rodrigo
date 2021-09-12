@@ -4,7 +4,9 @@ import styles from './nav.module.css';
 
 export default function Nav(): JSX.Element {
   return (
-    <nav className={`ph3 ph5-ns avenir relative ${styles.nav}`}>
+    <nav
+      className={`ph3 ph5-ns avenir relative flex justify-center ${styles.nav}`}
+    >
       <input className={styles.menuBtn} type="checkbox" id="menu-btn" />
       <label className={styles.menuIcon} htmlFor="menu-btn">
         <span className={styles.navicon}></span>

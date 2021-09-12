@@ -16,9 +16,9 @@ export default function SaveTheDate(): JSX.Element {
             <div className="f5 mt2">
               Después de un largo periodo de planeación, queremos compartirte la
               fecha de nuestra boda. El{' '}
-              <span className="fw5">6 de Marzo del 2021</span> comenzaremos a
-              escribir oficialmente la historia de la familia Pineda González y
-              ésta celebración no será lo mismo sin ti. Eres parte fundamental
+              <span className="fw5">27 de noviembre del 2021</span> comenzaremos
+              a escribir oficialmente la historia de la familia Pineda González
+              y ésta celebración no será lo mismo sin ti. Eres parte fundamental
               de nuestra historia.
             </div>
           </div>

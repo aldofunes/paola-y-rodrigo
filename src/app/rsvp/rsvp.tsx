@@ -6,7 +6,7 @@ export default function RSVP(): JSX.Element {
 
   url.searchParams.set(
     'text',
-    'Hola, \n\nQuiero confirmar mi asistencia a la boda de Paola González y Rodrigo Pineda, el 6 de marzo, 2021. Mi nombre completo es:\n',
+    'Hola, \n\nQuiero confirmar mi asistencia a la boda de Paola González y Rodrigo Pineda, el 27 de noviembre, 2021. Mi nombre completo es:\n',
   );
   return (
     <div className="mw6 w-100 center bg-white mt4 flex">

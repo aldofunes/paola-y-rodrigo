@@ -29,7 +29,7 @@ export default function Events(): JSX.Element {
 
   rsvpUrl.searchParams.set(
     'text',
-    'Hola, \n\nQuiero confirmar mi asistencia a la boda de Paola González y Rodrigo Pineda, el 6 de marzo, 2021. Mi nombre completo es:\n',
+    'Hola, \n\nQuiero confirmar mi asistencia a la boda de Paola González y Rodrigo Pineda, el 27 de noviembre, 2021. Mi nombre completo es:\n',
   );
 
   return (
@@ -39,7 +39,7 @@ export default function Events(): JSX.Element {
           Ceremonia y Recepción
         </h1>
         <div className="f5 fw3 mt4">Sábado</div>
-        <div className="f2 fw3">6 de marzo</div>
+        <div className="f2 fw3">27 de noviembre</div>
         <div className="f5 fw3">2021</div>
 
         <div className="b--gray bt bb pv2 mv3">15:30 hrs</div>
